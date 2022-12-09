@@ -1,0 +1,37 @@
+Jonnathon Blanchard
+ComS 327
+
+
+=======================================================================================================
+
+Homework 10 - Choose Your Own
+
+The goal of this assignment was to pick your own assignment using c++
+
+I made an idle/grinder game which implements various ncurses menus. The goal of the game is to make money. You make money by pressing your spacebar. You can buy upgrades to make your presses worth more, or even buy drones to automatically make money for you every game tick. It reads data from a data file to populate the shop, dynamically adjusts drone prices, displays the data in a nice way, and is somewhat addicting haha.
+
+Controls:
+w/k      - menu up
+s/j      - menu down
+ENTER    - menu select
+SPACEBAR - make money
+
+The requirements are met by the following:
+	* C++ using ncurses
+	* Read data from a .dat file to populate the in-game shop
+	* 5 menus implemented:
+		- Main menu    : Displays 3 submenus
+		- Upgrades     : Buy upgrades to improve your $ per action
+		- Drone Supply : Buy/upgrade drones to automatically make $ every game tick
+		- Quit         : Exits the game cleanly
+		- Stats        : Right side menu that displays player balance, money per click, drone information, and game timer
+	* Game runs on a timer, with each game 'tick' being 1 second
+	* Game timer displayed live
+	* Drones income applied every tick
+	* Each menu can be traversed forward and back via selecting an option and implementation of a back button
+	* Visual menu selector implemented to help user see which option is currently selected. This is contrained to the 
+	  size of the menu its on, and adjusts appropriately to each submenu
+	* Drone pricing dynamically adjusts with each purchase
+
+I feel this work sufficiently satisfies the work needed for this homework. It took more time than all of the other assignments aside from possibly homework 9.
+

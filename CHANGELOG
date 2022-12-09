@@ -1,0 +1,45 @@
+Jonnathon Blanchard
+ComS 327
+Idle game CHANGELOG
+
+===============================================================
+
+12/1/22
+started work
+implemented basic ncurses windows for outline
+added placeholder text
+
+12/3/22
+added player class to store basic data
+added main menu buttons
+
+12/4/22
+started selector implementation
+added buttons to main class
+add stats menu
+can now add money with spacebar
+started shop stuff
+
+12/5/22
+added shop submenu
+use .dat file to pull shop data
+add shop methods and update player class for implementation of shop upgrades
+flesh out selector again for new menu, ENTER selects menu and goes to it
+
+12/7/22
+finished shop menu
+add game exit methods to cleanly exit
+start work on drones
+adjust pricing and money stuff for better game flow
+fix shop data methods
+clean up some code
+
+
+11/9/22
+finish drone stuff
+finish game timer
+final update for selector method for new menu
+update stats menu for new features
+bugfix/testing
+update readme
+turn in HW10
